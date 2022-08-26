@@ -8,8 +8,8 @@ KEYBOARD_SHARED_EP = yes
 # Build Options
 #   change yes to no to disable
 #
-BOOTMAGIC_ENABLE = lite     # Enable Bootmagic Lite
-MOUSEKEY_ENABLE = yes       # Mouse keys
+BOOTMAGIC_ENABLE = yes     # Enable Bootmagic Lite
+MOUSEKEY_ENABLE = no       # Mouse keys
 EXTRAKEY_ENABLE = yes       # Audio control and System control
 CONSOLE_ENABLE = no         # Console for debug
 COMMAND_ENABLE = no         # Commands for debug and configuration
@@ -25,7 +25,7 @@ SPLIT_KEYBOARD = yes
 SERIAL_DRIVER = usart
 WS2812_DRIVER = pwm
 
-LAYOUTS = gma_split_42
+#LAYOUTS = LAYOUT42ansi
 
 # Disable unsupported hardware
 AUDIO_SUPPORTED = no

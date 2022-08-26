@@ -6,7 +6,7 @@
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    GMA
 #define PRODUCT         gma_split_42
-#define DESCRIPTION     Keyboard
+//#define DESCRIPTION     Keyboard
 
 //#define MASTER_LEFT
 #define SPLIT_HAND_PIN B12
@@ -30,7 +30,7 @@
 
 #define TAPPING_TOGGLE 2
 /* Set 0 if debouncing isn't needed */
-#define DEBOUNCING_DELAY 6
+//#define DEBOUNCING_DELAY 6
 
 //#define SOFT_SERIAL_PIN A9
 #define SERIAL_USART_FULL_DUPLEX   // Enable full duplex operation mode.
